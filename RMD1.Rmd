@@ -1,0 +1,25 @@
+---
+title: "RMD1"
+author: "Charlie"
+date: "27/01/2020"
+output: html_document
+---
+
+
+### Plain text blah blah blah
+# more text
+
+
+
+```{r chunk1, echo=FALSE, warning=FALSE}
+plot(cars$speed ~ cars$dist)
+
+summary(cars$speed)
+
+
+```
+
+
+This is more random text
+
+
